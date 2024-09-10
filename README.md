@@ -7,6 +7,7 @@
 - [Descripción General](#descripción-general)
 - [Desafíos](#desafíos)
 - [Cómo Empezar](#cómo-empezar)
+- [Requerimientos](#requerimientos)
 - [Cómo Contribuir](#cómo-contribuir)
 - [Licencia](#licencia)
 - [Contacto](#contacto)
@@ -22,7 +23,16 @@ El Procesamiento de Lenguaje Natural (NLP, por sus siglas en inglés) es un camp
 - **Descripción:** En este desafío, trabajarás con técnicas de vectorización utilizando TF-IDF (Term Frequency-Inverse Document Frequency) para medir la similitud entre categorías de textos. También explorarás la similitud entre palabras, la creación de matrices documento-término y término-documento.
 - **Dificultad:** Medio
 
-Cada desafío incluye una descripción de las consignas, datos de ejemplo, y su resolución
+### Desafío 2: Word2Vec y Test de Analogías
+
+- **Descripción:** Este desafío se enfoca en el uso de la librería Word2Vec de Gensim para entrenar un modelo de vectores de palabras y realizar pruebas de analogía basadas en el texto de *Historia del Tiempo* de Stephen Hawking. Utilizarás un conjunto de datos basado en el libro para analizar las relaciones semánticas entre palabras y construir pruebas de analogía (por ejemplo, `rey - hombre + mujer = reina`).
+- **Dificultad:** Medio
+- **Objetivos:**
+   1. Entrenar un modelo Word2Vec utilizando el texto procesado de *Historia del Tiempo*.
+   2. Realizar tests de analogías para encontrar relaciones entre conceptos científicos y no científicos presentes en el texto.
+   3. Explorar la precisión del modelo y ajustar sus parámetros para mejorar los resultados.
+
+Cada desafío incluye una descripción de las consignas, datos de ejemplo, y su resolución.
 
 ## Cómo Empezar
 
@@ -42,6 +52,24 @@ Para comenzar con los desafíos:
 3. **Ejecuta los scripts proporcionados:**
 
    Algunos desafíos pueden incluir scripts de inicio o notebooks de Jupyter. Sigue las instrucciones proporcionadas en la carpeta del desafío para ejecutar estos scripts.
+
+## Requerimientos
+
+Este repositorio incluye un archivo `requirements.txt` que contiene las dependencias necesarias para ejecutar los desafíos. Para instalar las dependencias, utiliza el siguiente comando:
+
+```bash
+pip install -r requirements.txt
+```
+
+El archivo `requirements.txt` incluye librerías esenciales como:
+
+- **Gensim**: Para el entrenamiento de modelos Word2Vec.
+- **Scikit-learn**: Para operaciones de procesamiento de datos y métricas de similitud.
+- **Numpy**: Utilizado para operaciones matemáticas y manipulación de matrices.
+- **Pandas**: Para la gestión de estructuras de datos.
+- **Matplotlib**: Para visualización de resultados.
+
+Es importante tener estas librerías correctamente instaladas para garantizar que los notebooks y scripts se ejecuten sin problemas.
 
 ## Cómo Contribuir
 
