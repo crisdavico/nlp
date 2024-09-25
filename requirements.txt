@@ -5,3 +5,8 @@ matplotlib
 plotly
 gensim
 tensorflow
+seaborn
+keras
+gradio
+scipy
+

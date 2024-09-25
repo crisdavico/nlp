@@ -31,6 +31,18 @@ El Procesamiento de Lenguaje Natural (NLP, por sus siglas en inglés) es un camp
    1. Entrenar un modelo Word2Vec utilizando el texto procesado de *Historia del Tiempo*.
    2. Realizar tests de analogías para encontrar relaciones entre conceptos científicos y no científicos presentes en el texto.
    3. Explorar la precisión del modelo y ajustar sus parámetros para mejorar los resultados.
+   
+### Desafío 3: Predicción de Palabras con LSTM
+
+- **Descripción:** En este desafío, implementarás un modelo de red neuronal LSTM (Long Short-Term Memory) para predecir la próxima palabra en una secuencia de texto. El objetivo es entrenar el modelo para comprender patrones y relaciones contextuales en el texto y utilizar diferentes métodos de búsqueda, como greedy search y beam search, para mejorar la predicción. Además, explorarás diferentes formas de tokenización, tanto a nivel de palabra como de carácter.
+- **Dificultad:** Avanzado
+- **Objetivos:**
+   1. Entrenar un modelo LSTM que prediga la próxima palabra en una secuencia de texto.
+   2. Implementar técnicas de búsqueda para mejorar la predicción, comparando greedy search y beam search.
+   3. Explorar la tokenización por palabra y por carácter para observar cómo afectan al rendimiento del modelo.
+   4. Evaluar el modelo en términos de precisión y ajuste de hiperparámetros para mejorar los resultados.
+
+Con este desafío, podrás profundizar en las arquitecturas de redes neuronales recurrentes (RNNs) y sus aplicaciones en procesamiento de lenguaje natural (NLP).
 
 Cada desafío incluye una descripción de las consignas, datos de ejemplo, y su resolución.
 
