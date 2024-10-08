@@ -44,7 +44,7 @@ El Procesamiento de Lenguaje Natural (NLP, por sus siglas en inglés) es un camp
 
 Con este desafío, podrás profundizar en las arquitecturas de redes neuronales recurrentes (RNNs) y sus aplicaciones en procesamiento de lenguaje natural (NLP).
 
-## Desafío 4: Chatbot con Modelos Seq2Seq
+### Desafío 4: Chatbot con Modelos Seq2Seq
 
 - **Descripción:** En este desafío, implementarás un chatbot utilizando un modelo de red neuronal Seq2Seq basado en la arquitectura Encoder-Decoder. El objetivo es entrenar el modelo para que pueda generar respuestas coherentes en un entorno de conversación, entendiendo los patrones y el contexto del diálogo.
 
