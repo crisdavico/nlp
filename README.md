@@ -54,6 +54,17 @@ Con este desafío, podrás profundizar en las arquitecturas de redes neuronales 
    1. Entrenar un modelo Seq2Seq con codificador y decodificador que pueda generar respuestas coherentes a partir de entradas de conversación.
    2. Evaluar el chatbot en términos de coherencia de las respuestas y precision.
 
+### Desafío 5: Análisis de Sentimientos con BERT
+- **Descripción:** Este desafío se enfoca en la implementación de un modelo de análisis de sentimientos utilizando el modelo preentrenado BERT (Bidirectional Encoder Representations from Transformers) para clasificar textos en cinco categorías de sentimientos. Se entrenará el modelo en un conjunto de datos etiquetado en cinco clases y se evaluará su desempeño a través de métricas de precisión, F1-score y matrices de confusión.
+
+- **Dificultad:** Avanzado
+
+- **Objetivos:**
+   1. Entrenar un modelo de BERT sobre un conjunto de datos de análisis de sentimientos con 5 clases.
+   2. Evaluar el rendimiento del modelo utilizando métricas clave como precisión, F1-score, y una matriz de confusión.
+   3. Identificar y aplicar técnicas de optimización para mitigar el overfitting.
+   4. Visualizar y analizar la evolución del entrenamiento y la validación a lo largo de las épocas.
+
 
 Cada desafío incluye una descripción de las consignas, datos de ejemplo, y su resolución.
 
